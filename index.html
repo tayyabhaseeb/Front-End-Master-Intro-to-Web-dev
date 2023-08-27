@@ -3,10 +3,82 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Intro to Web Dev Course</title>
   </head>
   <body>
+    <header>
+      <img
+        src="https://btholt.github.io/complete-intro-to-web-dev-v3/images/coffee_masters_logo.png"
+        class="header-img"
+      />
+      <h1 class="header-heading">Coffee Masters</h1>
+    </header>
+    <section class="section-one">
+      <!-- 1 -->
+      <div class="items-container-one">
+        <p class="items">ITEMS</p>
+        <div class="child-one">
+          <p>1x</p>
+          <div class="dishes-cont">
+            <h3>Cappuucino</h3>
+            <p class="recipe">Lite form</p>
+          </div>
+          <h3 class="price">$ 3.35</h3>
+        </div>
+
+        <!-- 2 -->
+        <div class="child-one">
+          <p>1x</p>
+          <div class="dishes-cont">
+            <h3>Cappuucino</h3>
+            <p class="recipe">Lite form</p>
+            <p class="recipe">Lite form</p>
+          </div>
+          <h3 class="price">$ 3.35</h3>
+        </div>
+        <!-- 3 -->
+        <div class="child-one">
+          <p>1x</p>
+          <div class="dishes-cont">
+            <h3>Cappuucino</h3>
+            <p class="recipe">Lite form</p>
+          </div>
+          <h3 class="price">$ 3.35</h3>
+        </div>
+        <!--  -->
+      </div>
+      <div class="items-container-two">
+        <div class="son-one">
+          <div class="food-name-container">
+            <p>NAME</p>
+            <div class="food-name-cont">
+              <label for="food-input" class="input-label">Name for order</label>
+              <input id="food-input" class="food-input" />
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="son-two">
+          <div class="food-name-container">
+            <p>PAYMENT</p>
+            <div class="food-name-cont">
+              <label for="card-input" class="input-label">Card number</label>
+              <input id="card-input" class="food-input" />
+            </div>
+
+            <div class="food-name-cont CCV">
+              <label for="CCV-input" class="input-label">CCV number</label>
+              <input id="CCV" class="food-input" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <style src="index.js"></style>
   </body>
 </html>
